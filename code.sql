@@ -40,6 +40,7 @@ JOIN playlist p ON pt.playlist_id = p.playlist_id
 SELECT t.name, a.title FROM track t
 JOIN album a ON t.album_id = a.album_id
 JOIN genre g ON g.genre_id = t.genre_id
+<<<<<<< HEAD
 WHERE g.name = 'Alternative & Punk';
 
 -- section 2 --
@@ -161,3 +162,6 @@ WHERE type = 'silver';
 
 DELETE FROM practice_delete
 WHERE value = 150;
+=======
+WHERE g.name = 'Alternative & Punk';
+>>>>>>> 92aa7369b5dd2073c5a98bbc8f83b6c0779b7e63
